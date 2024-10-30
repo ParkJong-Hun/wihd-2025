@@ -21,4 +21,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "Wihd2025"
 include(":app")
+include(":page")
+include(":widget")
+include(":feature")
+include(":entity")
+include(":shared")
  
