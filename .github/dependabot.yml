@@ -1,0 +1,38 @@
+# ref: https://github.com/RyuNen344/Suburi/blob/main/.github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      compose:
+        patterns:
+          - "androidx.compose*"
+          - "androidx.constraintlayout:constraintlayout-compose*"
+      dagger:
+        patterns:
+          - "com.google.dagger*"
+          - "androidx.hilt*"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "github-actions"
+    directory: ".github/actions/avd"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "github-actions"
+    directory: ".github/actions/gradle"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "github-actions"
+    directory: ".github/actions/java"
+    schedule:
+      interval: "daily"
