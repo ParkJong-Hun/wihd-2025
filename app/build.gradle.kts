@@ -50,6 +50,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":page"))
+    implementation(project(":widget"))
+    implementation(project(":feature"))
+    implementation(project(":entity"))
+    implementation(project(":shared"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
