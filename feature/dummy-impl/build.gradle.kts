@@ -4,6 +4,6 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":entity"))
-    implementation(project(":shared"))
+    implementation(project(":entity:dummy"))
+    implementation(project(":shared:dummy"))
 }

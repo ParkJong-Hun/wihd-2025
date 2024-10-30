@@ -50,11 +50,16 @@ android {
 }
 
 dependencies {
-    implementation(project(":page"))
-    implementation(project(":widget"))
-    implementation(project(":feature"))
-    implementation(project(":entity"))
-    implementation(project(":shared"))
+    implementation(project(":page:dummy"))
+    implementation(project(":page:dummy-impl"))
+    implementation(project(":widget:dummy"))
+    implementation(project(":widget:dummy-impl"))
+    implementation(project(":feature:dummy"))
+    implementation(project(":feature:dummy-impl"))
+    implementation(project(":entity:dummy"))
+    implementation(project(":entity:dummy-impl"))
+    implementation(project(":shared:dummy"))
+    implementation(project(":shared:dummy-impl"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
