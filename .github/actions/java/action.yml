@@ -1,0 +1,12 @@
+# ref: https://github.com/RyuNen344/Suburi/blob/main/.github/actions/java/action.yml
+# $schema: https://json.schemastore.org/github-action.json
+name: "setup JDK"
+description: "setup JDK"
+runs:
+  using: "composite"
+  steps:
+    - name: setup JDK
+      uses: actions/setup-java@v4
+      with:
+        distribution: "temurin"
+        java-version: "17"
