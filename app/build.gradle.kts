@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "co.kr.parkjonghun.wihd2025"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "co.kr.parkjonghun.wihd2025"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
