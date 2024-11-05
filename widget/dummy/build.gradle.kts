@@ -6,11 +6,11 @@ plugins {
 android.namespace = "co.kr.parkjonghun.wihd2025.widget.dummy"
 
 android {
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
     }
 
     compileOptions {
