@@ -26,4 +26,5 @@ include(":widget:dummy", ":widget:dummy-impl")
 include(":feature:dummy", ":feature:dummy-impl")
 include(":entity:dummy", ":entity:dummy-impl")
 include(":shared:dummy", ":shared:dummy-impl")
+include(":shared:test")
  
